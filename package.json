@@ -4,7 +4,8 @@
   "scripts": {
     "oldtest": "echo \"Error: no test specified\" && exit 1",
     "build": "npx parcel build src/index.html",
-    "test": "node tests/*.js"
+    "test": "node tests/*.js",
+    "start": "npx parcel src/index.html"
   },
   "keywords": [],
   "author": "",
